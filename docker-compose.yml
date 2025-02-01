@@ -1,0 +1,11 @@
+version: '3'
+services:
+  backendfaqs:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URI=mongodb://localhost:27017/backendfaqs
+      - REDIS_HOST=localhost
+    volumes:
+      - .:/usr/src/app
