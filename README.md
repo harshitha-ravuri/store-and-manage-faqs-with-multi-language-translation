@@ -8,6 +8,10 @@ MongoDB	- NoSQL database for storing FAQs
 Redis -	Caching system for performance optimization
 
 
+setting up mongoDB and redis
+
+creating project architecture
+
 procedure : 
 
 i. install dependencies
@@ -20,4 +24,9 @@ iii. perform the requirements.
 
         convert the task into code
 
-        
+manage and install the libraries
+
+
+run the server.
+
+error handling
