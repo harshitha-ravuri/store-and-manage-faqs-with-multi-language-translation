@@ -10,7 +10,20 @@ Redis -	Caching system for performance optimization
 
 setting up mongoDB and redis
 
-creating project architecture
+creating project architecture:
+backendfaqs
+        - src
+            -config
+            -controllers
+            -middlewares
+            -models
+            -routes
+            -tests
+            -app.js
+        -.env
+        -Dockerfile
+        -package.json
+        -readme.md
 
 procedure : 
 
@@ -20,9 +33,16 @@ i. install dependencies
 
 ii. setup .env 
 
+        port number
+        mongoDB url
+        redis_ host
+
 iii. perform the requirements.
 
         convert the task into code
+        following the architecture 
+
+
 
 manage and install the libraries
 
